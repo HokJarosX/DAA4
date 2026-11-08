@@ -1,3 +1,4 @@
+package algorithms.stringmatching;
 
 import java.util.ArrayList;
 
@@ -26,12 +27,12 @@ public class KMP {
             if (text.charAt(i) == pattern.charAt(j)) {
                 i++;
                 j++;
-            }
 
-            if (j == m) {
-                results.add(i - j);
-                j = lps[j - 1];
-            } else if (i < n && text.charAt(i) != pattern.charAt(j)) {
+                if (j == m) {
+                    results.add(i - j);
+                    j = lps[j - 1];
+                }
+            } else {
                 if (j > 0) {
                     j = lps[j - 1];
                 } else {

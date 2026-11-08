@@ -1,0 +1,4 @@
+Algorithm,InputSize,AverageTimeNs,AverageComparisons
+Kasai,1000,356300.0,1990.0
+Kasai,5000,1824200.0,9991.0
+Kasai,10000,1323420.0,19988.0

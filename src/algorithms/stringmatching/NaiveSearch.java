@@ -1,3 +1,4 @@
+package algorithms.stringmatching;
 
 import java.util.ArrayList;
 

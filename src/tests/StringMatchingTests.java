@@ -1,3 +1,8 @@
+package tests;
+
+import algorithms.stringmatching.KMP;
+import algorithms.stringmatching.NaiveSearch;
+import algorithms.stringmatching.RabinKarp;
 
 import java.util.ArrayList;
 
@@ -31,7 +36,7 @@ public class StringMatchingTests {
             System.out.println("FAIL: " + text + " | " + pattern);
             System.out.println("Naive: " + naive);
             System.out.println("Rabin-Karp: " + rabin);
-            System.out.println("KMP: " + kmp);
+            System.out.println("algorithms.stringmatching.KMP: " + kmp);
         }
     }
 }

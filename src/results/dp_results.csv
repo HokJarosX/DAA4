@@ -1,0 +1,7 @@
+Algorithm,InputSize,AverageTimeNs,AverageComparisons
+algorithms.dp.LCS,100,2529620.0,10000.0
+algorithms.dp.EditDistance,100,2838300.0,10000.0
+algorithms.dp.LCS,500,1.853998E7,250000.0
+algorithms.dp.EditDistance,500,7580020.0,250000.0
+algorithms.dp.LCS,1000,1.352572E7,1000000.0
+algorithms.dp.EditDistance,1000,1.307622E7,1000000.0

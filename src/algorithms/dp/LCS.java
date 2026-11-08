@@ -1,3 +1,5 @@
+package algorithms.dp;
+
 public class LCS {
 
     public static int findLCS(String first, String second, long[] comparisons) {

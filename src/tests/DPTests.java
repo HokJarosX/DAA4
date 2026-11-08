@@ -1,3 +1,7 @@
+package tests;
+
+import algorithms.dp.EditDistance;
+import algorithms.dp.LCS;
 
 public class DPTests {
 
@@ -7,7 +11,7 @@ public class DPTests {
     }
 
     public static void testLCS() {
-        System.out.println("LCS TESTS");
+        System.out.println("algorithms.dp.LCS TESTS");
 
         checkLCS("ABC", "ABC", 3);
         checkLCS("ABC", "AC", 2);
